@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  position: unset;
+  top: 50%;
+  right: 50%;
+  padding: 0px;
+  margin-top: -7px;
+  border: 2px solid black;
+  margin-bottom: -1px;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -8px;
+  background-color: #124a59;
+  color: white;
+  border: 2px solid white;
+
+  padding: 8px;
+}
+html {
+  background-color: #000000;
+}

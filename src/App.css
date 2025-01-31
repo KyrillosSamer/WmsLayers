@@ -1,0 +1,44 @@
+.overlay {
+  position: fixed;
+  top: 56px;
+  right: -34px;
+  width: 240px;
+  height: 92%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(100%);
+  transition: transform 0.3s;
+  z-index: 1000;
+  background-color: #124a59;
+  border: 2px solid white;
+  color: aliceblue;
+  margin-right: 39px;
+}
+
+.overlay.open {
+  transform: translateX(0px); 
+  
+}
+
+.toggle-button {
+  position: fixed;
+  top: 58px;
+  right: 10px; 
+  padding-top: 5px;
+  background-color: #124a59;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1001;
+  font-size: 20px;
+  border: 1px solid #ffffff;
+}
+
+.toggle-button:hover {
+  background-color: #0d80fa;
+}
+
+h3{
+margin:10px
+}
